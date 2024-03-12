@@ -1,6 +1,11 @@
 schemaVersion: 2.2.2
 metadata:
   name: git-clone-sample-devworkspace-cvcsvsdsfvdfgvfdfdbdfbdfbdfbfdbbb
+projects:
+  - git:
+      remotes:
+        origin: https://github.com/che-samples/web-nodejs-sample.git
+    name: web-nodejs-sample
 components:
   - name: tools
     container:
